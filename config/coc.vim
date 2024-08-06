@@ -41,5 +41,4 @@ nmap <leader>cr <Plug>(coc-rename)
 " use `:OR` for organize import of current buffer
 command! -nargs=0 OR   :call     CocAction('runCommand', 'editor.action.organizeImport')
 
-let g:coc_node_path=$HOME."/.nvm/versions/node/v10.20.1/bin/node"
-
+let g:coc_node_path=$HOME."/.nvm/versions/node/v20.16.0/bin/node"
